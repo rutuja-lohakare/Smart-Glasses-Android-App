@@ -1,0 +1,4 @@
+#Tue Aug 16 23:56:56 IST 2022
+base.0=E\:\\Viran\\andriod\\SmartGlasses2\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

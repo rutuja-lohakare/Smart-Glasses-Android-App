@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smartglasses"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="21" />
+9-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:5:5-75
+11-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:5:22-72
+12    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+12-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:6:5-72
+12-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:6:22-69
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:7:5-72
+13-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:7:22-69
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:9:5-79
+14-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:10:5-67
+15-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:11:5-81
+16-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:11:22-78
+17
+18    <application
+18-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:14:5-47:19
+19        android:allowBackup="true"
+19-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:15:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.1] C:\Users\Viran\.gradle\caches\transforms-2\files-2.1\51ec9767ead7a598d20dd24a7369e6f6\core-1.0.1\AndroidManifest.xml:22:18-86
+21        android:icon="@mipmap/smartglasses2"
+21-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:16:9-45
+22        android:label="@string/app_name"
+22-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:17:9-41
+23        android:supportsRtl="true"
+23-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:18:9-35
+24        android:theme="@style/AppTheme" >
+24-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:19:9-40
+25        <activity
+25-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:21:9-29:20
+26            android:name="com.example.smartglasses.MainActivity"
+26-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:22:13-65
+27            android:label="@string/app_name" >
+27-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:23:13-45
+28
+29            <!-- android:screenOrientation="fullSensor"> -->
+30            <intent-filter>
+30-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:25:13-28:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:26:17-69
+31-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:26:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:27:17-77
+33-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:27:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <receiver android:name="com.example.smartglasses.PhoneStateReceiver" >
+37-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:31:9-35:20
+37-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:31:19-53
+38            <intent-filter>
+38-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:32:13-34:29
+39                <action android:name="android.intent.action.PHONE_STATE" />
+39-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:33:17-76
+39-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:33:25-73
+40            </intent-filter>
+41        </receiver>
+42
+43        <service
+43-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:36:9-46:19
+44            android:name="com.example.smartglasses.NotificationService"
+44-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:36:18-77
+45            android:label="@string/app_name"
+45-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:37:13-45
+46            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+46-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:38:13-87
+47            <intent-filter>
+47-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:40:13-44:29
+48                <action android:name="android.service.notification.NotificationListenerService" />
+48-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:42:17-99
+48-->E:\projects\android\SmartGlasses2\app\src\main\AndroidManifest.xml:42:25-96
+49            </intent-filter>
+50        </service>
+51    </application>
+52
+53</manifest>

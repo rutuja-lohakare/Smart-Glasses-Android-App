@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smartglasses"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:5:5-81
+11-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:7:5-68
+13-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:8:5-74
+14-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:8:22-71
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:9:5-75
+15-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:9:22-72
+16    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+16-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:10:5-72
+16-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:10:22-69
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:11:5-72
+17-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:11:22-69
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:6:5-79
+18-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:6:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:14:5-67
+19-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:14:22-64
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:5:5-81
+20-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:5:22-78
+21
+22    <application
+22-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:18:5-57:19
+23        android:allowBackup="true"
+23-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:19:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.1] C:\Users\MAHTRE\.gradle\caches\transforms-2\files-2.1\51ec9767ead7a598d20dd24a7369e6f6\core-1.0.1\AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/smartglasses2"
+26-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:20:9-45
+27        android:label="@string/app_name"
+27-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:21:9-41
+28        android:supportsRtl="true"
+28-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:22:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:23:9-40
+31        <activity
+31-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:25:9-34:20
+32            android:name="com.example.smartglasses.MainActivity"
+32-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:26:13-65
+33            android:exported="true"
+33-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:28:13-36
+34            android:label="@string/app_name" >
+34-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:27:13-45
+35
+36            <!-- android:screenOrientation="fullSensor"> -->
+37            <intent-filter>
+37-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:30:13-33:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:31:17-69
+38-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:31:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:32:17-77
+40-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:32:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:35:9-38:20
+44            android:name="com.example.smartglasses.SecondActivity"
+44-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:35:19-73
+45            android:configChanges="orientation"
+45-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:36:13-48
+46            android:screenOrientation="fullSensor" >
+46-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:37:13-51
+47        </activity>
+48
+49        <receiver
+49-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:39:9-44:20
+50            android:name="com.example.smartglasses.PhoneStateReceiver"
+50-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:39:19-53
+51            android:exported="true" >
+51-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:40:13-36
+52            <intent-filter>
+52-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:41:13-43:29
+53                <action android:name="android.intent.action.PHONE_STATE" />
+53-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:42:17-76
+53-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:42:25-73
+54            </intent-filter>
+55        </receiver>
+56
+57        <service
+57-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:45:9-56:19
+58            android:name="com.example.smartglasses.NotificationService"
+58-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:45:18-77
+59            android:exported="true"
+59-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:48:13-36
+60            android:label="@string/app_name"
+60-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:46:13-45
+61            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+61-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:47:13-87
+62            <intent-filter>
+62-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:50:13-54:29
+63                <action android:name="android.service.notification.NotificationListenerService" />
+63-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:52:17-99
+63-->E:\Viran\andriod\SmartGlasses2\app\src\main\AndroidManifest.xml:52:25-96
+64            </intent-filter>
+65        </service>
+66    </application>
+67
+68</manifest>
